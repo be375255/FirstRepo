@@ -5,6 +5,8 @@ git commit -m "message"
 git push -u origin master
 git pull origin master
 
+git rm -r FILE_NAME
+
 Links:
 Git Tutorials:
 https://www.youtube.com/watch?v=HVsySz-h9r4
