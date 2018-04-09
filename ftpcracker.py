@@ -8,7 +8,7 @@ def connection(ip,user,passw):
 
 	print('Trying' + ip + ':' + user + ':' + passw)
 
-	sock.connect(('192.168.0.1',21))
+	sock.connect(('192.168.0.1',80))
 
 	data = sock.recv(1024)
 
